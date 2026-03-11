@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guest Submissions</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2 class="text-center mb-4">Guest Submissions</h2>
+
+<input type="text" id="search" class="form-control mb-3" placeholder="Search by Name">
+<div class="row mb-3">
+
+<div class="col-md-4">
+<div class="card text-center p-2">
+Total Guests
+<h3 id="totalGuests">0</h3>
+</div>
+</div>
+
+</div>
+<table class="table table-bordered">
+<table class="table table-bordered table-striped">
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Phone</th>
+<th>Email</th>
+<th>Aadhar</th>
+<th>Check-in</th>
+<th>Check-out</th>
+<th>Adults</th>
+<th>Children</th>
+<th>Address</th>
+<th>Purpose</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="view.js"></script>
+
+</body>
+</html>
